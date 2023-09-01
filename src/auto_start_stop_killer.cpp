@@ -8,7 +8,7 @@ const int HOLD_DURATION = 500; // ms
 // PINS
 const int ENABLED_INDICATOR = 8; // OEM built-in Auto Start/Stop LED (optional)
 const int OEM_BUTTON = 2; // OEM Auto Start/Stop button
-const int RELAY = 14; // Relay to kill engine
+const int RELAY = 14; // Relay to disable Auto Start/Stop
 
 // EEPROM
 const int ENABLED_EEPROM_ADDRESS = 0;
