@@ -2,7 +2,7 @@
 #include <EEPROM.h>
 
 // CONFIG
-const int HOLD_BEFORE_DISABLE = 3000; // ms
+const int HOLD_BEFORE_DISABLE = 15000; // ms > 10s recommended
 const int HOLD_DURATION = 500;        // ms
 boolean TOGGLE_ENABLED = false;       // OEM wiring modification required if toggle is enabled. Only splicing is needed if disabled.
 
